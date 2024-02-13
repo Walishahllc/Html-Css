@@ -1,0 +1,135 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: "lato" sans-serif;
+    color: black;
+}
+
+.pimg1 {
+    background-image: url(img1.jpg);
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(img2.jpg);
+    min-height: 400px;
+}
+
+.pimg1 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pimg3 {
+    background-image: url(img3.jpg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.pimg2 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.head1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 8px;
+    font-weight: 50px;
+    font-size: 27px;
+}
+
+.text1 {
+    background-color: #31353496;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.one {
+    text-align: center;
+    padding: 30px 60px;
+    background-color: #d9e2e0;
+}
+
+.one h2 {
+    margin-bottom: 20px;
+    color: #313534;
+    font-family: "lato" sans-serif;
+    font-size: 40px;
+}
+
+.one p {
+    font-size: 20px;
+    color: #4b4d4c;
+}
+
+.head2 {
+    position: absolute;
+    top: 50%;
+    font-size: 27px;
+    color: #d9e2e0;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 8px;
+    font-weight: 10px;
+}
+
+.text2 {
+    background-color: #31353494;
+    padding: 20px 40px;
+}
+
+.two {
+    text-align: center;
+    padding: 30px 60px;
+    background-color: #606463;
+}
+
+.two h2 {
+    margin-bottom: 20px;
+    color: #dbeee9;
+    font-family: "lato" sans-serif;
+    font-size: 40px;
+}
+
+.two p {
+    font-size: 20px;
+    color: #deeee6;
+}
+
+.head3 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+
+.text3 {
+    background-color: #31353485;
+    padding: 20px 30px;
+}
